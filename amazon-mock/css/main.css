@@ -1,0 +1,94 @@
+div{
+    padding: 15px;
+}
+
+.logo-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.center-span{
+    margin: auto
+}
+
+fieldset{
+    width: 85%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+fieldset label{
+    font-size: 90%;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+form input[type="submit"]{
+    background-color:#F7c548;
+    border-color:#a88734 #9c7e31 #846a29;
+    font-size: 90%;
+}
+
+form label{
+    font-size: 75%;
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    flex-flow: space-between;
+    border-top: 2px solid lightgray;
+    font-size: 70%;
+}
+
+#create_account{
+    background-color:rgb(231, 230, 230);
+    border-color:rgb(136, 136, 136);
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+a{
+    color: rgb(54, 118, 190);
+}
+
+section{
+    text-align: center;
+    font-size: 85%;
+    color: rgb(146, 146, 146);
+    overflow: hidden;
+    text-align: center;
+}
+
+  section:before,
+  section:after{
+    background-color:rgb(146, 146, 146);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: static;
+    vertical-align: middle;
+    width: 33%;
+  }
+
+  div#main {
+    display: flex;
+    justify-content:space-between; 
+  }
+
+  #forgot{
+      float: right;
+      font-size: 85%;
+      margin-top: 2px;
+      color:rgb(54, 118, 190);
+  }
